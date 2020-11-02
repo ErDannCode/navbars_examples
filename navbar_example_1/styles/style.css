@@ -1,0 +1,58 @@
+/*Datos genéricos del documento*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color:  #abebc6;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.generic_nav {
+    list-style-type: none;
+    text-align: center;
+    box-shadow: 5px 5px 5px gray;
+    margin-top: 25%;
+}
+
+.nav_1 {
+    background-color:  #2c3e50;
+    color: #FFFF;
+    margin: 10%;
+}
+
+li {
+    display: inline;
+    margin: 5%;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: #abebc6;
+    transition: initial;
+    transition-duration: 0.3s;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+button {
+    border-radius: 5%;
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border: none;
+    background: none;
+    color: #abebc6;
+    text-transform: uppercase;
+}
+
+button:hover {
+    color: white;
+}
